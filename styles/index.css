@@ -2,16 +2,9 @@ body {
     background-color: white;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    zoom: 1.1; 
-
-    /* Firefox fallback */
-    -moz-transform: scale(1.1); 
+    zoom: 0.8; /* Works in Chrome, Edge, and Safari */
+    -moz-transform: scale(0.8); /* Firefox fallback */
     -moz-transform-origin: 0 0;
-    
-    /* standard transform for future-proofing */
-    transform: scale(1.1);
-    transform-origin: 0 0;
-    width: 90.9%;
 }
 
 h3 {
